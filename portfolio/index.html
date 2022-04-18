@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,15 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conor Doyle | Portfolio Page</title>
-    <meta name="description" content="Sample web page description goes here.">
+    <meta name="description" content="Web solutions for you. Here are some of the projects I have built using my web design and development skills.">
 
 	<!-- Preload hero image -->
+    <link rel="preload" href="../assets/img/projects-page-hero-image.jpg" as="image">
 
 	<!-- Stylesheets -->
     <link rel="stylesheet" href="../assets/css/lunevedy.min.css" />
     <link rel="stylesheet" href="../assets/css/custom.css" />
 
 	<!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@400;700&display=swap" rel="stylesheet">
 
     <!-- Font Awesome 6 icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -51,12 +54,12 @@
     <header class="hero-block hero-bg text-center-desktop text-center-mobile">
     
         <div class="container-text">
-            <h1 class="text-shadow">Welcome to my Portfolio</h1>
-            <h2 class="text-shadow">I use HTML, CSS and animation to bring your ideas to life online.</h2>
+            <h1 class="text-shadow slide-in-top"><u>Welcome to my Portfolio</u></h1>
+            <h2 class="text-shadow slide-in-left">I use HTML, CSS and animation to bring your ideas to life online.</h2>
         </div>
     
         <div class="container-btn">
-            <a href="../contact/index.html" class="btn btn-primary"><i class="fas fa-shopping-cart"></i><span>Get in touch</span></a>
+            <a href="../contact/index.html" class="btn btn-primary"><i class="las la-envelope"></i><span>Get in touch</span></a>
         </div>
     
         <div class="container-media">
@@ -72,35 +75,35 @@
     <!-- main content with sections -->
     <main>
 
-            <section class="container-flex section-selector-1 theme-light">
+            <section class="container-flex section-selector-4 theme-light">
                 <div class="col-1 text-center">
                     <h2>Projects</h2>
                     <h3>Below you can see my recent work.</h3>
                 </div>
         
                 <div class="col-3">
-                    <figure><img src="../assets/img/project-van-gogh.png" alt="Van Gough Web Project"></figure>
+                    <figure><a href="../assets/img/project-van-gogh.png"><img src="../assets/img/project-van-gogh.png" alt="Van Gough Web Project"></figure></a>
                     <h3>Vincent Van Gogh</h3>
                     <p>A summary of the life and work of Dutch artist Vincent van Gogh with an embeded video from YouTube.</p>
                     <a class="btn btn-soft" href="../portfolio/van-gogh/index.html">View project</a>
                 </div>
         
                 <div class="col-3">
-                    <figure><img src="../assets/img/project-smoothie.jpg" alt="Smoothies Web Project"></figure>
+                    <figure><a href="../assets/img/project-smoothie.jpg"><img src="../assets/img/project-smoothie.jpg" alt="Smoothies Web Project"></figure></a>
                     <h3>Smooth Smoothies</h3>
                     <p>A multi-column, flexbox-based page layout and hero image with a tinted overlay.</p>
                     <a class="btn btn-soft" href="../portfolio/smoothies/index.html">View project</a>
                 </div>
         
                 <div class="col-3">
-                    <figure><img src="../assets/img/project-fashion.jpg" alt="Fashion Web Project"></figure>
+                    <figure><a href="../assets/img/project-fashion.jpg"><img src="../assets/img/project-fashion.jpg" alt="Fashion Web Project"></figure></a>
                     <h3>Snazzy Fashion</h3>
                     <p>A web page for a fashion retailer with a background video that plays in a continuous loop.</p>
                     <a class="btn btn-soft" href="../portfolio/fashion/index.html">View project</a>
                 </div>
 
                 <div class="col-3">
-                    <figure><img src="../assets/img/project-crypto-wallet.jpg" alt="Crypto Wallet Project"></figure>
+                    <figure><a href="../assets/img/project-crypto-wallet.jpg"><img src="../assets/img/project-crypto-wallet.jpg" alt="Crypto Wallet Project"></figure></a>
                     <h3>Crypto Wallet</h3>
                     <p>A responsive, multi-column single-page website for a fictitious crypto wallet.</p>
                     <a href="../portfolio/crypto-wallet/index.htm"class="btn btn-soft">View project</a> 
@@ -112,7 +115,38 @@
 
     
     <!-- footer -->
-    <footer></footer>
+    <footer>
+
+            <h2>Conor Doyle, Web Designer</h2>
+            <h3>Bespoke Websites for all services, products & events.</h3>
+
+        <ul class="footer-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="../contact/index.html">Contact</a></li>
+        </ul>
+        
+        <ul class="footer-icons">
+            <li>
+                <a href="https://github.com/conordoyle-design" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            
+            <li>
+                <a href="https://www.linkedin.com/in/conor-doyle-807aa6196/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+   
+            <li>
+                <a href="https://www.instagram.com/cdesigns_sample01/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+        </ul>                 
+        
+    </footer>
        
     <script src="assets/js/menu.js"></script>
 

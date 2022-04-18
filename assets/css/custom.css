@@ -1,2 +1,40 @@
-section.theme-light.section-selector-1 { background-color: var(--sky-200) }
-/* Add your custom styles here */
+
+/*sections*/
+
+section.theme-light.section-selector-2 {background-color: darkcyan ;}
+
+section.theme-dark.section-selector-3 { background-color: darkcyan }
+
+section.theme-dark.section-selector-3 .col-1 h3 { color: lime }
+
+.section-selector-4 .col-1 h3 {color: red;}
+
+.section-selector-3 .col-3 li { color: lime}
+
+.section-selector-4 {background-color: wheat;}
+
+.section-selector-4 .col-3 h3 {color: darkcyan;}
+
+/*contact form styling*/
+.contact-form {
+    color: orangered;
+}
+
+/* heading styling*/
+h1 {
+    font-family: 'Hepta Slab', sans-serif; 
+}
+
+p {
+    font-family: 'Times New Roman', sans-serif;
+    font-size: calc(16px + (21 - 16) * ((100vw - 320px) / (1600 - 320)));
+}
+
+img {
+    box-shadow: 6px 6px 6px #888;
+}
+
+/*footer icon styling*/
+footer ul.footer-icons li a:any-link i {
+    font-size: 38px
+}

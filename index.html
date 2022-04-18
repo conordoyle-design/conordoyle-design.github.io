@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,15 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conor Doyle | Web Designer</title>
-    <meta name="description" content="Home page description goes here.">
+    <meta name="description" content="Talk to us about setting up a website to showcase your products, services and or events.">
 
 	<!-- Preload hero image -->
-
-	<!-- Stylesheets -->
+    <link rel="preload" href="assets/vids/homepage_heroblock_image.png" as="preloaded hero-block image">
+	
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="assets/css/lunevedy.min.css" />
     <link rel="stylesheet" href="assets/css/custom.css" />
 
 	<!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@400;700&display=swap" rel="stylesheet">
 
     <!-- Font Awesome 6 icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -26,11 +29,24 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
     rel="stylesheet">
 
-    <!-- Google Analytics code here-->
-    
+        <!-- Google Analytics code here-->
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MGG6E5450B">
+    </script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-MGG6E5450B');
+    </script>
+
+
+    <!--Privacy Message-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 
 </head>
-
 
 <body>
 
@@ -39,7 +55,7 @@
         <a href="#"><img src="assets/img/website-logo.png" alt="website logo"></a>
         <ul>
             <li><a href="portfolio/index.html">Portfolio</a></li>
-            <li><a href="contact/index.html" id="btn-cta"><span>Contact</span><i class="fas fa-arrow-right"></i></a></li>
+            <li><a href="contact/index.html" id="btn-cta"><span>Contact</span><i class="las la-arrow-right"></i></a></li>
         </ul>
         <div class="item-icon">
             <div class="bar1"></div>
@@ -51,20 +67,20 @@
     <header class="hero-block hero-bg text-center-desktop text-center-mobile">
     
         <div class="container-text">
-            <h1 class="text-shadow">Hi, I'm Conor Doyle</h1>
-            <h2 class="text-shadow">I use Front-end developement to promote products, services and events through the power of web design.</h2>
+            <h1 class="text-shadow slide-in-bottom">Hi, I'm Conor Doyle</h1>
+            <h2 class="text-shadow slide-in-top">I use Front-end developement to promote products, services and events through the power of web design.</h2>
         </div>
     
         <div class="container-btn">
-            <a href="contact/index.html" class="btn btn-primary"><i class="fas fa-shopping-cart"></i><span>Get in touch</span></a>
+            <a href="contact/index.html" class="btn btn-primary"><i class="las la-envelope"></i><span>Get in touch</span></a>
             <a href="portfolio/index.html" class="btn btn-secondary"><i class="fas fa-arrow-right"></i><span>View my work</span></a>
         </div>
     
-        <div class="container-media">
-            <img src="assets/img/home-page-hero-image.jpg" alt="Conor Doyle, Web Designer">
-        </div>
-    
-        <div class="container-overlay"></div>
+        <div class="container-media"><video loop="" playsinline="" muted="" autoplay="" poster="assets/vids/homepage_heroblock_image.png" class="background-video" disablepictureinpicture="" preload="auto">
+            <source src="assets/vids/homepage_heroblock_video.mp4" type="video/mp4">
+            </video>
+            </div>
+            <div class="container-overlay"></div>
     
     </header>
     
@@ -72,8 +88,46 @@
 
     <!-- main content with sections -->
     <main>
+        
+        <section class="container-flex theme-dark section-selector-3 fig-shadow fig-corners-soft">
+            <div class="col-1 text-center col-1-width-1140px">
+                
+                <h3><b><u>What are the advantages of having a website?
+                    Try clicking on the linked images below for some interesting articles.
+                </u></b></h3>
+            </div>
+            
+            <div class="col-3">
+                <figure><a href="https://www.businessworld.ie/news/The-advantages-of-moving-your-business-online-572787.html"><img src="assets/img/innovative_section_image1.png" alt="Online advantages"></figure>
+                </a>
+                    <ul>
+                        <li><b>Advantages of moving your business online:</b> <p><i>Nowadays almost all businesses and organisations have at the very least considered moving online as the information people look for is generally found on the internet and a lot of the time where people look to before purchase of product/service or visit.</i></p></li>
+        
+                    </ul>
+            </div>
+    
+            <div class="col-3">
+                <figure><a href="https://review42.com/resources/what-percentage-of-small-businesses-have-a-website/#:~:text=Less%20than%2064%25%20of%20small,business%20websites%20are%20mobile%2Dfriendly."><img src="assets/img/percentages.png" alt="Small business website percentages"></figure>
+                </a>
+                    <ul>
+                        <li><b>Small business should consider moving online:</b> <p><i>It is becomming more common place for most businesses and organisations to have a funtioning website in operation, it is also considered a vital sorce of communication, information and or sales.</i></p></li>
+                        
+                    </ul>
+            </div>
+    
+            <div class="col-3">
+                <figure><a href="https://www.irishexaminer.com/business/economy/arid-40071515.html"><img src="assets/img/online_shopping_activity.png" alt="Online shopping activity"></figure>
+                </a>
+                    <ul>
+                        <li><b>Increasing online activity:</b> <p><i>The surge of online interactions in Ireland started during the global pandemic and a lot of people have built the online experience into their lives and to some it has improved the way they do things like shopping and remote working.</i></p></li>
+                        
+                    </ul>
+            </div>
+        
+        </section>
 
-            <section class="container-flex theme-light section-selector-1">
+
+            <section class="container-flex theme-light section-selector-4">
                 <div class="col-1 text-center">
                     <h2>Recent projects</h2>
                     <h3>Below you can see some examples of my recent work. Check out my 
@@ -81,21 +135,21 @@
                 </div>
         
                 <div class="col-3">
-                    <figure><img src="assets/img/project-van-gogh.png" alt="Van Gough Web Project"></figure>
+                    <figure><a href="assets/img/project-van-gogh.png"><img src="assets/img/project-van-gogh.png" alt="Van Gough Web Project"></figure></a>
                     <h3>Vincent Van Gogh</h3>
                     <p>A summary of the life and work of Dutch artist Vincent van Gogh with an embeded video from YouTube.</p>
                     <a class="btn btn-soft" href="portfolio/van-gogh/index.html">View project</a>
                 </div>
         
                 <div class="col-3">
-                    <figure><img src="assets/img/project-smoothie.jpg" alt="Smoothies Web Project"></figure>
+                    <figure><a href="assets/img/project-smoothie.jpg"><img src="assets/img/project-smoothie.jpg" alt="Smoothies Web Project"></figure></a>
                     <h3>Smooth Smoothies</h3>
                     <p>A multi-column, flexbox-based page layout and hero image with a tinted overlay.</p>
                     <a class="btn btn-soft" href="portfolio/smoothies/index.html">View project</a>
                 </div>
         
                 <div class="col-3">
-                    <figure><img src="assets/img/project-fashion.jpg" alt="Fashion Web Project"></figure>
+                    <figure><a href="assets/img/project-fashion.jpg"><img src="assets/img/project-fashion.jpg" alt="Fashion Web Project"></figure></a>
                     <h3>Snazzy Fashion</h3>
                     <p>A web page for a fashion retailer with a background video that plays in a continuous loop.</p>
                     <a class="btn btn-soft" href="portfolio/fashion/index.html">View project</a>
@@ -104,43 +158,73 @@
             </section>
 
             
-	        <section class="container-flex section-selector-1 icon-small theme-dark">
-		        <div class="col-1 text-center">
-			        <h2>Conor Doyle, Web Designer</h2>
-
-			        <h3>Bespoke Websites for all services, products & events.</h3>
-		        </div>
-
-		        <div class="col-4">
-			        <figure class="icon"><i class="fa-solid fa-user-group"></i></figure>
-			
-		        <a href="index.html" class="btn btn-primary btn-soft"><span>Go Home</span></a></div>
-
-		        <div class="col-4">
-			    <figure class="icon"><i class="fa-regular fa-comments"></i></figure>
-			
-			
-		        <a href="portfolio/index.html" class="btn btn-primary btn-soft"><span>Portfolio</span></a></div>
-
-		        <div class="col-4">
-			    <figure class="icon"><i class="fa-regular fa-lightbulb"></i></figure>
-			
-		        <a href="contact/index.html" class="btn btn-primary btn-soft"><span>Enquiries</span></a></div>
-
-		        <div class="col-4">
-			    <figure class="icon"><i class="fa-solid fa-plane-departure"></i></figure>
-		
-		        <a href="contact/index.html" class="btn btn-primary btn-soft"><span>Contact</span></a></div>
-	        </section>
-
+	    
 
     </main>
 
     
     <!-- footer -->
-    <footer></footer>
+    
+
+    <footer>
+
+            <h2>Conor Doyle, Web Designer</h2>
+            <h3>Bespoke Websites for all services, products & events.</h3>
+
+        <ul class="footer-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="portfolio/index.html">Portfolio</a></li>
+            <li><a href="contact/index.html">Contact</a></li>
+        </ul>
+        
+        <ul class="footer-icons">
+            <li>
+                <a href="https://github.com/conordoyle-design" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            
+            <li>
+                <a href="https://www.linkedin.com/in/conor-doyle-807aa6196/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+   
+            <li>
+                <a href="https://www.instagram.com/cdesigns_sample01/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+        </ul>                
+        
+    </footer>
+
+
        
-    <script src="assets/js/menu.js"></script>
+        <script src="assets/js/menu.js"></script>
+
+
+
+
+            <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false">
+            </script>
+
+            <script>
+                window.cookieconsent.initialise({
+                    "palette": {
+                    "popup": {
+                    "background": "#000",
+                    "text": "#0f0"
+                },
+                    "button": {
+                    "background": "#0f0"
+                }
+                },
+                    "content": {
+                    "href": "https://conordoyle-design.github.io/privacy.html"
+                }
+                });
+            </script>
 
 </body>
 </html>
