@@ -1,6 +1,12 @@
 
 /*sections*/
 
+#hero-1 section {
+    
+    margin-bottom: 0; 
+   background-color: lightcoral;
+   }
+
 section.theme-light.section-selector-2 {background-color: darkcyan ;}
 
 section.theme-dark.section-selector-3 { background-color: darkcyan }
@@ -26,7 +32,7 @@ h1 {
 }
 
 p {
-    font-family: 'Times New Roman', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: calc(16px + (21 - 16) * ((100vw - 320px) / (1600 - 320)));
 }
 
