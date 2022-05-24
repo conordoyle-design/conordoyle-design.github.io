@@ -1,5 +1,5 @@
 /* Add your custom styles here */
-body {font-family: 'Neucha' serif }
+body {font-family: 'Neucha', serif }
 
 .hero-block h1 {
     font-size: calc(60px + (132 - 60) * ((100vw - 320px)/ (1600 - 320)));  
