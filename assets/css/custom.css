@@ -1,6 +1,4 @@
-
 /*sections*/
-
 #hero-1 section {
     
     margin-bottom: 0; 
@@ -23,7 +21,23 @@ section.theme-dark.section-selector-3 .col-1 h3 { color: lime }
 
 /*contact form styling*/
 .contact-form {
-    color: orangered;
+    color: white;
+}
+
+#contact-form label {
+    color: lightcoral;
+}
+
+#contact-form h2 {
+    color: lightcoral;
+}
+
+.contact-form {
+    background-color: wheat;
+}
+
+#contact-form {
+    background-color: #1f364d;
 }
 
 /* heading styling*/
